@@ -31,3 +31,39 @@ The project currently uses placeholder images and content for the projects secti
 
 * Feel free to customize the HTML and CSS styles to match your preferences.
 * Explore more advanced features of HTML and JavaScript to enhance the functionality of your portfolio.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Nome do Projeto** (substitua pelo nome real do seu projeto)
+
+**Descrição**
+
+Este é um site de portfólio básico criado com HTML e JavaScript para Elisandro Sousa, um Desenvolvedor Front-end.
+
+**Funcionalidades**
+
+* Design responsivo para diferentes tamanhos de tela
+* Barra de navegação com rolagem suave (implementada em JavaScript)
+* Seção "Sobre" apresentando habilidades e experiência
+* Seção "Projetos" com espaços reservados para detalhes dos projetos
+* Seção "Contato" com links para e-mail, LinkedIn e Instagram
+* Rodapé com informações de copyright
+
+**Dependências**
+
+* Ícones Font Awesome (incluídos via links CDN)
+* Ícones Boxicons (incluídos via links CDN)
+
+**Executando o Projeto**
+
+1. Salve o arquivo HTML (index.html) e o arquivo JavaScript (script.js) no mesmo diretório.
+2. Abra o `index.html` em um navegador web.
+
+**Observação:**
+
+O projeto atualmente utiliza imagens e conteúdos de preenchimento para a seção de projetos. Você precisará substituí-los pelos detalhes dos seus próprios projetos.
+
+**Informações Adicionais**
+
+* Sinta-se à vontade para personalizar os estilos HTML e CSS de acordo com suas preferências.
+* Explore recursos mais avançados de HTML e JavaScript para aprimorar a funcionalidade do seu portfólio.
