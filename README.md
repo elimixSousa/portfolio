@@ -1,4 +1,4 @@
-**<h1>Portfolio Project</h1>**
+##Portfolio Project
 
 **Description**
 
@@ -34,7 +34,7 @@ The project currently uses placeholder images and content for the projects secti
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**<h1>Projeto de Portfólio</h1>**
+##Projeto de Portfólio
 
 **Descrição**
 
