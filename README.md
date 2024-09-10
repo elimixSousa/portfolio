@@ -7,7 +7,7 @@ This is a basic HTML, CSS and JavaScript portfolio website by Elisandro Sousa, a
 **Features**
 
 * Responsive design for various screen sizes
-* Navigation bar with smooth scrolling (implemented in JavaScript)
+* Navigation bar with smooth scrolling
 * About section showcasing skills and experience
 * Projects section with placeholders for project details
 * Contact section with links to email, LinkedIn, and Instagram
@@ -43,7 +43,7 @@ Este é um site de portfólio básico criado com HTML, CSS e JavaScript por Elis
 **Funcionalidades**
 
 * Design responsivo para diferentes tamanhos de tela
-* Barra de navegação com rolagem suave (implementada em JavaScript)
+* Barra de navegação com rolagem suave
 * Seção "Sobre" apresentando habilidades e experiência
 * Seção "Projetos" com espaços reservados para detalhes dos projetos
 * Seção "Contato" com links para e-mail, LinkedIn e Instagram
