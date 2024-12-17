@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --color-white: #fff;
     --color-pinkviolet: #cb65fa;
@@ -8,8 +9,10 @@
     --color-blackviolet: #080224;
     --HROWS-border : 1px solid var(--color-purpleblue);
     --HROWS-shadow : 0 0 1rem var(--color-pinkviolet);
+   
 }
 
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +21,7 @@
     border: none;
     outline: none;
 }
+/* CSS Reset */
 
 html {
     font-family: 'Poppins', sans-serif;
@@ -37,7 +41,6 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0.8rem;
     z-index: 1;
     background: var(--color-purpleblue);
 }
@@ -128,14 +131,7 @@ section {
     align-items: center;
 }
 
-.home-content h1 {
-    font-size: 3rem;
-    font-weight: 600;
-}
-
 .text-container .text {
-    width: 71%;
-    font-size: 1.7rem;
     font-weight: 500;
     color: var(--color-pinkviolet);
     border-right: 2px solid;
@@ -171,25 +167,6 @@ section {
     }
 }
 
-.home-img {
-    display: block;
-    width: 32vh;
-    height: 32vh;
-    border-radius: 50%;
-    border: solid 0.30rem var(--color-purpleblue);
-}
-
-.home-img img {
-    max-width: 100%;
-    border-radius: inherit;
-}
-
-.home-img:hover {
-    box-shadow: 0 0 1.7rem var(--color-blue);
-    border: solid 0.30rem #cb65fab9;
-}
-/* End Home Style */
-
 hr {
     border: var(--HROWS-border);
     box-shadow: var(--HROWS-shadow);
@@ -204,16 +181,8 @@ hr {
     min-height: auto;
 }
 
-.about-container {
-    padding: 7rem;
-    max-width: 1010px;
-    width: 100%;
-}
-
 .about-title h2 {
-    font-size: 2.5rem;
     text-align: center;
-    margin: 0.5rem;
 }
 
 .about-container h3 {
@@ -398,7 +367,6 @@ hr {
     align-items: center;
 }
 
-
 .contacts-container {
     position: relative;
     display: inherit;
@@ -454,7 +422,6 @@ hr {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    padding: 0.8rem;
     width: 100%;
     background-color: var(--color-purpleblue);
 }
@@ -476,9 +443,10 @@ hr {
 }
 /* End Scrollbar Style */
 
+/* Media Queries */
 
-/* Media Query */
-@media screen and (max-width: 900px) {
+/* Smartphone */
+@media screen and (max-width: 480px){
     header, footer {
         padding: 0.6rem;
     }
@@ -486,7 +454,7 @@ hr {
     .nav {
         display: none;
     }
-    /* Hiding the desktop nav bar */
+    /* Hiding the desktop nav bar end*/
 
     /* Resposive Nav Style */
     .menu-hamburguer {
@@ -501,14 +469,19 @@ hr {
     /* End Responsive Nav Style */
 
     /* Home */
-    .home .home-content h1 {
+    .home-content h1 {
         font-size: 2rem;
         font-weight: 600;
+        text-align: center;
     }
 
     .text-container .text {
         font-size: 1.7rem;
         width: 100%;
+    }
+
+    .social-media {
+        text-align: center;
     }
 
     .home-img {
@@ -524,12 +497,9 @@ hr {
         display: flex;
         flex-direction: column;
         padding: 2rem;
-        width: 100%;
-        background: transparent;
     }
 
     .about-title h2 {
-        text-align: center;
         margin: 2rem;
         font-size: 2rem;
     }
@@ -539,15 +509,10 @@ hr {
         margin: 1.5rem 0;
     }
 
-    .social-media {
-        text-align: center;
-    }
-
     .about-container h4 {
         text-align: center;
         margin: 0.5rem;
     }
-
     /* About End */
 
     /* Project */
@@ -576,8 +541,7 @@ hr {
         width: 2.5rem;
         height: 2.5rem;
     }
-
-    /* Project End */
+    /* Project end */
 
     /* Contact */
     .contacts {
@@ -616,8 +580,164 @@ hr {
     .footer h3{
         font-size: 18.72px;
     }
+    /* Contact end */
 }
-/* Contact End */
+/* Smartphone end */
+
+/* Smartphone Landscape */
+@media screen and (min-width:500px) and (max-width:980px){
+    header, footer {
+        padding: 0.4rem;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    /* Resposive Nav Style */
+    .menu-hamburguer {
+        display: block;
+    }
+
+    .nav-responsive a {
+        display: block;
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+    }
+    /* Responsive Nav End */
+
+    /* Home */
+    .home{
+        padding: 5rem;
+    }
+    .home .home-content h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .text-container .text {
+        font-size: 1.7rem;
+        width: 100%;
+    }
+
+    .social-media {
+        text-align: center;
+    }
+
+    .home-img {
+        display: none;
+    }
+
+    /* About */
+    .about-title h2 {
+        margin: 1rem;
+        font-size: 2rem;
+    }
+
+    .about-container{
+        padding: 4rem;
+    }
+
+    /* Contacts */
+    .contacts {
+        min-height: 80vh;
+    }
+
+    .contacts-title h2 {
+        font-size: 2rem;
+        margin: 0.5rem;
+    }
+
+    .contacts-container {
+        justify-content: space-around;
+        padding: 2rem;
+        max-width: 80%;
+        width: 65%;
+        height: 30rem;
+        border-radius: 1rem;
+        margin: 0.7rem;
+    }
+
+    .contacts-container a {
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: var(--color-white);
+    }
+
+    .container-footer h2 {
+        font-size: 1.3rem;
+    }
+
+    .container-footer h3 {
+        font-size: 1rem;
+    }
+
+    .footer h3{
+        font-size: 18.72px;
+    }
+}
+/* Smartphone Landscape end */
+
+/* Desktop and landscape Tablets */
+@media screen and (min-width: 1000px){
+    header, footer {
+        padding: 0.8rem;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .menu-hamburguer{
+        display: none;
+    }
+
+    section {
+        min-height: 100vh;
+    }
+
+    .home-content h1 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .text-container .text {
+        width: 71%;
+        font-size: 1.7rem;
+    }
+    
+    .home-img {
+        display: block;
+        width: 32vh;
+        height: 32vh;
+        border-radius: 50%;
+        border: solid 0.30rem var(--color-purpleblue);
+    }
+    
+    .home-img img {
+        max-width: 100%;
+        border-radius: inherit;
+    }
+    
+    .home-img:hover {
+        box-shadow: 0 0 1.7rem var(--color-blue);
+        border: solid 0.30rem #cb65fab9;
+    }
+
+    .about-container{
+        padding: 7rem;
+        max-width: 1010px;
+        width: 100%;
+    }
+
+    .about-title h2{
+        font-size: 2.5rem;
+        margin: 0.5rem;
+    }
+}
+/* Desktop and landscape Tablets end */
+
 
 @media screen and (max-width: 1500px) {
     .project-container {
@@ -625,7 +745,7 @@ hr {
         gap: 1rem;
     }
 }
-/* End Media Query */
+/* End Media Queries */
 
 /* Animations */
 @keyframes cursor {
