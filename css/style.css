@@ -680,7 +680,7 @@ hr {
 /* Smartphone Landscape end */
 
 /* Desktop and landscape Tablets */
-@media screen and (min-width: 981px){
+@media screen and (min-width: 980.090px){
     header, footer {
         padding: 0.8rem;
     }
