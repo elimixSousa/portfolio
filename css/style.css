@@ -492,6 +492,7 @@ hr {
     .project-container{
         grid-template-columns: auto;
         gap: 1.2rem;
+        width: fit-content;
     } 
     
     .project-box{
@@ -524,7 +525,7 @@ hr {
     }   
 }
 
-@media only screen and (min-width: 501px){
+@media only screen and (min-width: 501px) and (max-width: 1023px){
     header, footer{
         padding: 0.2rem;
     }
