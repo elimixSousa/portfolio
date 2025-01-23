@@ -437,6 +437,7 @@ hr {
 @media only screen and (max-width: 500px){
     header, footer{
         padding: 0.2rem;
+        width: 100%;
     }
 
     .nav{
@@ -603,11 +604,14 @@ hr {
         font-size: 1.2rem;
     }
 
+    .contacts-container{
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 1024px){
     header, footer{
-        padding: 1.2rem;
+        padding: 0.8rem;
     }
 
     .nav{
@@ -628,8 +632,12 @@ hr {
     }
 
     .text-container .text{
-        width: 85%;
-        font-size: 1.7rem;
+        width: 83%;
+        font-size: 2rem;
+    }
+
+    .social-media {
+        text-align: start;
     }
 
     .social-media a{
@@ -637,10 +645,14 @@ hr {
         height: 2.7rem;
     }
 
+    .home h1{
+        font-size: 3rem;
+    }
+
     .home-img {
         display: block;
-        width: 25vh;
-        height: 25vh;
+        width: 30vh;
+        height: 30vh;
         border-radius: 50%;
         border: solid 0.30rem var(--color-purpleblue);
     }
@@ -655,6 +667,10 @@ hr {
         box-shadow: 0 0 1.7rem var(--color-blue);
     }
 
+    .about{
+        height: auto;
+    }
+
     .about-container{
         padding: 7rem;
         max-width: 1010px;
@@ -665,6 +681,11 @@ hr {
         margin: 0.5rem;
     }
 
+    .about-title h2{
+        margin: 2rem;
+        font-size: 2.5rem;
+    }
+
     .projects h2{
         margin-top: 5rem;
     }
@@ -673,41 +694,6 @@ hr {
         grid-template-columns: auto auto;
         gap: 2rem;
     }  
-}
-
-@media only screen and (min-width: 1024px){
-    
-    header, footer{
-        padding: 0.8rem;
-    }
-    
-    .home-img{
-        width: 30vh;
-        height: 30vh;
-    }
-
-    .home h1{
-        font-size: 3rem;
-    }
-
-    .text-container .text{
-        width: 83%;
-        font-size: 2rem;
-    }
-
-    .social-media {
-        text-align: start;
-    }
-
-    .about{
-        height: auto;
-    }
-
-    .about-title h2{
-        margin: 2rem;
-        font-size: 2.5rem;
-    }
-
 }
 
 /* End Media Queries */
