@@ -422,17 +422,6 @@ hr {
 }
 /* End Footer Style */
 
-/* Scrollbar Style */
-::-webkit-scrollbar {
-    width: 7px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #420079;
-    border-radius: 2rem;
-}
-/* End Scrollbar Style */
-
 /* Media Queries */
 @media only screen and (max-width: 500px){
     header, footer{
@@ -694,6 +683,17 @@ hr {
         grid-template-columns: auto auto;
         gap: 2rem;
     }  
+
+    /* Scrollbar Style */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #420079;
+    border-radius: 2rem;
+}
+/* End Scrollbar Style */
 }
 
 /* End Media Queries */
