@@ -589,7 +589,7 @@ hr {
     }
 
     .project-container{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         gap: 2rem;
     }  
 
