@@ -38,22 +38,24 @@
   <body>
     <!-- Header -->
     <header id="header">
-      <a href="#" class="logo">Eli.dev</a>
       <!-- Standard Nav -->
       <div class="nav">
-        <a href="#home">Início</a>
-        <a href="#about">Sobre</a>
-        <a href="#projects">Projetos</a>
-        <a href="#contacts">Contato</a>
+        <a href="#" id="logo" class="logo">
+          <img src="./assets/favicon-32x32.png" alt="" /> Eli.dev</a
+        >
+        <a href="#home" data-translate="inicio"></a>
+        <a href="#about" data-translate="sobre_mim"></a>
+        <a href="#projects" data-translate="projetos"></a>
+        <a href="#contacts" data-translate="contato"></a>
       </div>
       <!-- End Standard Nav -->
 
       <!-- Alternative/Responsive Nav -->
       <div class="nav-responsive">
-        <a href="#home">Início</a>
-        <a href="#about">Sobre</a>
-        <a href="#projects">Projetos</a>
-        <a href="#contacts">Contato</a>
+        <a href="#home" data-translate="inicio"></a>
+        <a href="#about" data-translate="sobre_mim"></a>
+        <a href="#projects" data-translate="projetos"></a>
+        <a href="#contacts" data-translate="contato"></a>
       </div>
 
       <div class="menu-hamburguer">
@@ -61,7 +63,15 @@
         <div class="bar2"></div>
         <div class="bar3"></div>
       </div>
+
+      <a href="#" class="logo-responsive">
+        <img id="img-icon" src="./assets/favicon-16x16.png" alt="" /> Eli.dev</a
+      >
       <!-- End Alternative/Responsive Nav -->
+
+      <button id="language-button" class="language-button">
+        <img id="language-icon" src="./assets/usa-flag.png" alt=""> </button>
+      </button>
     </header>
     <!-- End Header -->
 
@@ -71,7 +81,7 @@
         <h1>Elisandro Sousa</h1>
 
         <div class="text-container">
-          <p id="text" class="text">Desenvolvedor Web</p>
+          <p id="text" class="text">Web Developer</p>
         </div>
 
         <div class="social-media">
@@ -99,9 +109,9 @@
     <section id="about" class="about">
       <div class="about-container">
         <div class="about-title">
-          <h2>Sobre Mim:</h2>
+          <h2 data-translate="about_me_title">Sobre Mim:</h2>
         </div>
-        <h3>Desenvolvedor Web com experiência em:</h3>
+        <h3 data-translate="about_me_subtitle"></h3>
 
         <div class="stacks">
           <ul>
@@ -145,19 +155,14 @@
           </ul>
         </div>
 
-        <h4>
-          Sou bacharel em Ciência da Computação e um apaixonado pela área de
-          Desenvolvimento Web. Estou sempre em busca de expandir meus
-          conhecimentos, aprimorar minhas habilidades, descobrir novas
-          ferramentas e topar desafios que me desenvolvam profissionalmente.
-          Estou apto a trabalhar de forma presencial, híbrida ou remota.
-        </h4>
+        <h4 data-translate="about_me_text"></h4>
 
         <a
+          id="button-cv"
           class="button-cv"
-          href="./assets/Resume - Elisandro Sousa.pdf"
-          download="Currículo-Elisandro Sousa"
-          >Currículo</a
+          href="./assets/Currículo - Elisandro Sousa.pdf"
+          download="Elisandro Sousa" data-translate="curriculo"
+          ></a
         >
       </div>
     </section>
@@ -165,7 +170,7 @@
     <hr />
     <!-- Projects -->
     <section id="projects" class="projects">
-      <h2>Projetos</h2>
+      <h2 data-translate="projetos"></h2>
       <div class="project-container">
         <div class="project-box">
           <img src="./img/portfolio-project.png" alt="portfolio project" />
@@ -240,7 +245,7 @@
     <section id="contacts" class="contacts">
       <div class="contacts-container">
         <div class="contacts-title">
-          <h2>Contato</h2>
+          <h2 data-translate="contato"></h2>
         </div>
 
         <a href="mailto:eli.techs7@gmail.com"

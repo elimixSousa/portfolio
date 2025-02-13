@@ -44,35 +44,46 @@ header {
   background: var(--color-purpleblue);
 }
 
-.logo {
-  font-size: 1.5rem;
+.nav .logo {
+  font-size: 1.7rem;
   font-weight: 700;
   color: var(--color-white);
+  margin-right: 1rem;
   transition: 0.5s ease;
 }
 
-.logo {
+.nav .logo {
   &:hover,
   &:focus {
     color: var(--color-pinkviolet);
   }
 }
 
+.nav a img {
+  position: relative;
+  top: 0.3rem;
+  width: 32px;
+  height: auto;
+}
+
 .nav-responsive {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 2rem;
   left: 0;
-  width: 100%;
-  padding: 1rem;
-  text-align: center;
+  height: 100vh;
+  width: 70%;
+  padding: 3rem 0.7rem;
+  text-align: left;
+  overflow-y: scroll;
+  z-index: 1;
   background-color: var(--color-purpleblue);
 }
 
 .nav a,
 .nav-responsive a {
   font-size: 0.95rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--color-white);
   padding: 0.5rem;
   transition: 0.5s;
@@ -86,6 +97,23 @@ header {
   }
 }
 
+.nav-responsive a {
+  margin-top: 2rem;
+}
+
+.logo-responsive {
+  display: none;
+}
+
+.language-button {
+  display: flex;
+  background: transparent;
+}
+
+.language-button:hover {
+  cursor: pointer;
+}
+
 /* Menu Hamburguer */
 .menu-hamburguer {
   cursor: pointer;
@@ -94,15 +122,15 @@ header {
 .bar1,
 .bar2,
 .bar3 {
-  width: 2rem;
-  height: 0.4rem;
+  width: 1.7rem;
+  height: 0.23rem;
   margin: 0.3rem;
   background-color: var(--color-white);
   transition: 0.3s ease;
 }
 
 .change .bar1 {
-  transform: translate(0, 0.65rem) rotate(-45deg);
+  transform: translate(0, 0.4rem) rotate(-50deg);
 }
 
 .change .bar2 {
@@ -110,7 +138,7 @@ header {
 }
 
 .change .bar3 {
-  transform: translate(0, -0.65rem) rotate(45deg);
+  transform: translate(0, -0.65rem) rotate(50deg);
 }
 /* End Menu Hamburguer */
 
@@ -208,7 +236,6 @@ hr {
 .stacks ul li img {
   width: 40px;
   height: auto;
-
   transition: transform 0.3s ease;
 }
 
@@ -411,7 +438,7 @@ hr {
 }
 
 .footer h3 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.3rem;
 }
 /* End Footer Style */
@@ -425,6 +452,27 @@ hr {
 
   .nav {
     display: none;
+  }
+
+  .logo-responsive {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-right: 1rem;
+    transition: 0.5s ease;
+  }
+
+  .logo-responsive img {
+    width: 20px;
+    height: auto;
+  }
+
+  .logo-responsive {
+    &:hover,
+    &:focus {
+      color: var(--color-pinkviolet);
+    }
   }
 
   .menu-hamburguer {
@@ -448,7 +496,7 @@ hr {
 
   .text-container .text {
     font-size: 1.7rem;
-    width: 100%;
+    width: 82%;
   }
 
   .social-media {
@@ -475,7 +523,7 @@ hr {
   }
 
   .stacks {
-    gap: 1.7rem;
+    gap: 1.1rem;
   }
 
   .projects h2 {
@@ -542,6 +590,27 @@ hr {
     display: none;
   }
 
+  .logo-responsive {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-right: 1rem;
+    transition: 0.5s ease;
+  }
+
+  .logo-responsive img {
+    width: 20px;
+    height: auto;
+  }
+
+  .logo-responsive {
+    &:hover,
+    &:focus {
+      color: var(--color-pinkviolet);
+    }
+  }
+
   .menu-hamburguer {
     display: block;
   }
@@ -562,7 +631,7 @@ hr {
 
   .text-container .text {
     font-size: 1.4rem;
-    width: 87%;
+    width: 67%;
   }
 
   .social-media {
@@ -631,7 +700,7 @@ hr {
   }
 
   .text-container .text {
-    width: 83%;
+    width: 63.5%;
     font-size: 2rem;
   }
 
