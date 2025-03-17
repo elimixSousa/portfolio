@@ -25,7 +25,7 @@ const translations = {
     about_me_title: "Sobre Mim",
     about_me_subtitle: "Desenvolvedor Web com experiência em:",
     about_me_text:
-      "Sou bacharel em Ciência da Computação e um apaixonado pela área de Desenvolvimento Web. Estou sempre em busca de expandir meus conhecimentos, aprimorar minhas habilidades, descobrir novas ferramentas e topar desafios que me desenvolvam profissionalmente. Estou apto a trabalhar de forma presencial, híbrida ou remota",
+      "Sou bacharel em Ciência da Computação e um apaixonado pela área de Desenvolvimento Web. Estou sempre em busca de expandir meus conhecimentos, aprimorar minhas habilidades, descobrir novas ferramentas e topar desafios que me desenvolvam profissionalmente. Estou apto a trabalhar de forma presencial, híbrida ou remota.",
     curriculo: "Currículo",
   },
   "en-US": {
