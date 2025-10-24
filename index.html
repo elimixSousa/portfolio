@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eli.dev | Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <!-- Standard Nav -->
+      <div class="nav">
+        <a href="#" id="logo" class="logo">
+          <img src="./assets/favicon-32x32.png" alt="" /> Eli.dev</a
+        >
+        <a href="#home" data-translate="inicio"></a>
+        <a href="#about" data-translate="sobre_mim"></a>
+        <a href="#projects" data-translate="projetos"></a>
+        <a href="#contacts" data-translate="contato"></a>
+      </div>
+      <!-- End Standard Nav -->
+
+      <!-- Alternative/Responsive Nav -->
+      <div class="nav-responsive">
+        <a href="#home" data-translate="inicio"></a>
+        <a href="#about" data-translate="sobre_mim"></a>
+        <a href="#projects" data-translate="projetos"></a>
+        <a href="#contacts" data-translate="contato"></a>
+      </div>
+
+      <div class="menu-hamburguer">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+      <a href="#" class="logo-responsive">
+        <img id="img-icon" src="./assets/favicon-16x16.png" alt="" /> Eli.dev</a
+      >
+      <!-- End Alternative/Responsive Nav -->
+
+      <button id="language-button" class="language-button">
+        <img id="language-icon" src="./assets/usa-flag.png" alt=""> </button>
+      </button>
+    </header>
+    <!-- End Header -->
+
+    <!-- Home -->
+    <section id="home" class="home">
+      <div class="home-content">
+        <h1>Elisandro Sousa</h1>
+
+        <div class="text-container">
+          <p id="text" class="text">Web Developer</p>
+        </div>
+
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/elisandro-sousa-1b9bb4276/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/elimixSousa/" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/eli_mix_sousa/" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="./img/profile-pic.png" alt="Profile picture" />
+      </div>
+    </section>
+    <!-- End Home -->
+    <hr />
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <div class="about-title">
+          <h2 data-translate="about_me_title">Sobre Mim:</h2>
+        </div>
+        <h3 data-translate="about_me_subtitle"></h3>
+
+        <div class="stacks">
+          <ul>
+            <li>
+              <div data="HTML">
+                <img src="./svg/html.svg" alt="html-icon" />
+              </div>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <div data="CSS">
+                <img src="./svg/css.svg" alt="css-icon" />
+              </div>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <div data="JS">
+                <img src="./svg/js.svg" alt="js-icon" />
+              </div>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <div data="Node">
+                <img src="./svg/nodejs.svg" alt="nodejs icon" />
+              </div>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <div data="React">
+                <img src="./svg/reactjs.svg" alt="reactjs icon" />
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <h4 data-translate="about_me_text"></h4>
+
+        <a
+          id="button-cv"
+          class="button-cv"
+          href="./assets/Currículo - Elisandro Sousa.pdf"
+          download="Elisandro Sousa" data-translate="curriculo"
+          ></a
+        >
+      </div>
+    </section>
+    <!-- End About -->
+    <hr />
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <h2 data-translate="projetos"></h2>
+      <div class="project-container">
+        <div class="project-box">
+          <img src="./img/portfolio-project.png" alt="portfolio project" />
+
+          <div class="project-layer">
+            <h4>Portfolio Project</h4>
+            <a href="https://elidev-portfolio.netlify.app/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="./img/piano-project.png" alt="musical project" />
+
+          <div class="project-layer">
+            <h4>Musical Project</h4>
+            <a href="https://brazilianpiano.netlify.app/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="./img/imc-project.png" alt="bmi calculator" />
+
+          <div class="project-layer">
+            <h4>BMI Calculator</h4>
+
+            <a href="https://calculemeuimc.netlify.app/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="./img/crud-project.png" alt="crud project" />
+
+          <div class="project-layer">
+            <h4>CRUD Project</h4>
+
+            <a href="https://github.com/elimixSousa/crudPHP" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="./img/project.jpg" alt="building project" />
+
+          <div class="project-layer">
+            <h4>🚧Building...🚧</h4>
+
+            <a href="#" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="./img/project.jpg" alt="building project" />
+
+          <div class="project-layer">
+            <h4>🚧Building...🚧</h4>
+
+            <a href="#" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <!-- End Projects -->
+
+    <!-- Contact -->
+    <section id="contacts" class="contacts">
+      <div class="contacts-container">
+        <div class="contacts-title">
+          <h2 data-translate="contato"></h2>
+        </div>
+
+        <a href="mailto:eli.techs7@gmail.com"
+          >Email
+          <i class="fa-solid fa-square-envelope"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/elisandro-sousa-1b9bb4276/"
+          target="_blank"
+          >Linkedin
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a
+          href="https://www.instagram.com/eli_mix_sousa/?igsh=N2gwd2dhMGsyamN1"
+          target="_blank"
+          >Instagram
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+      <h3>Developed by</h3>
+      <h3>Elisandro Sousa ©️ 2024</h3>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
