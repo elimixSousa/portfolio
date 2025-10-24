@@ -2,11 +2,12 @@
 
 **Description**
 
-This is a basic HTML, CSS and JavaScript portfolio website by Elisandro Sousa, a Front-End Developer.
+This is a basic HTML, CSS and JavaScript portfolio website by Elisandro Sousa, a Web Developer.
 
 **Features**
 
 - Responsive design for various screen sizes
+- Dynamic translation with Portuguese and English support
 - Navigation bar with smooth scrolling
 - About section showcasing skills and experience
 - Projects section with placeholders for project details
@@ -33,11 +34,12 @@ The project currently uses placeholder images and content for the projects secti
 
 **Descrição**
 
-Este é um site de portfólio básico criado com HTML, CSS e JavaScript por Elisandro Sousa, um Desenvolvedor Front-end.
+Este é um site de portfólio básico criado com HTML, CSS e JavaScript por Elisandro Sousa, um Desenvolvedor Web.
 
 **Funcionalidades**
 
 - Design responsivo para diferentes tamanhos de tela
+- Tradução dinâmica com suporte a Português e Inglês
 - Barra de navegação com rolagem suave
 - Seção "Sobre" apresentando habilidades e experiência
 - Seção "Projetos" com espaços reservados para detalhes dos projetos
